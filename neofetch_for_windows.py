@@ -228,7 +228,6 @@ def get_info_lines() -> list[str]:
         ("Processes", run_command("tasklist | find /c /v \"\"")),
         ("Time", datetime.datetime.now().strftime("%H:%M:%S")),
         ("Date", datetime.datetime.now().strftime("%d-%m-%Y")),
-        ("Μνήσθητι", "There is no price to Perfection, Only an end to Pursuit."),
     ]
 
 def color_text(text: str, color_code: str) -> str:
