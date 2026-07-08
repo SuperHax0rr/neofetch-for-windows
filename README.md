@@ -57,22 +57,7 @@ The script displays information such as:
 - Running Processes
 - Current Date and Time
 
-## Technologies Used
 
-- Python
-- Windows Management Instrumentation (WMIC)
-- ctypes
-- subprocess
-- platform
-- Standard Python Libraries
-
-## Future Improvements
-
-- Additional themes and color schemes
-- More hardware information detection
-- Network information support
-- Optional package manager information
-- Configurable themes and ASCII art
 
 ## License
 
