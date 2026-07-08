@@ -59,7 +59,7 @@ The script displays information such as:
 
 ## Note
 
-This project is mostly vibe-coded, I built this cus linux wasn't working on my laptop and I like to customize stuff.
+This project is mostly vibe-coded, I made this cus linux wasnt booting on my laptop.
 
 ## License
 
