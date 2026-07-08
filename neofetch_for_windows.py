@@ -16,7 +16,7 @@ ANSI_MAGENTA = "\033[95m"
 ANSI_BLUE = "\033[94m"
 ANSI_RED = "\033[91m"
 ANSI_SOFT_WHITE = "\033[38;2;200;200;200m"
-
+ 
 ASCII_ART = [
     r"⠀⠀⠀⠀⠀⠀⣰⣾⠁⠀⢦⣾⣤⠆⠀⠻⣧⠀⠀⠀⠀⠀⠀",
     r"⠀⠀⠀⠀⢠⣼⠏⠀⠀⠀⠀⣿⡇⠀⠀⠀⠈⢷⣄⠀⠀⠀⠀",
@@ -37,6 +37,8 @@ ASCII_ART = [
     r"⠀⠀⠀⠀⠀⠀⠀  ⠙⢿⣿⣿⣿⡿⠁⠀⠀⠀⠀⠀⠀⠀",
     r"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀",
 ]
+
+# change ascii art line by line, go to https://www.asciiart.eu/ for options
 
 def enable_ansi_colors() -> None:
     if os.name != "nt":
