@@ -17,8 +17,8 @@ ANSI_BLUE = "\033[94m"
 ANSI_RED = "\033[91m"
 ANSI_SOFT_WHITE = "\033[38;2;200;200;200m"
 
-#uncomment the ascii art you would like and comment the other one
-#you can get more ascii arts on https://emojicombos.com/anime-ascii-art 
+# Uncomment the Ascii art you would like and comment or remove the other one
+# Get more ascii arts on https://emojicombos.com/anime-ascii-art 
 
 ASCII_ART = [
 r"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
