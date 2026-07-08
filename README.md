@@ -18,22 +18,35 @@ This will show system information in the terminal with "customizable" ASCII art,
 ![NeoFetch for Windows](demoimage1.jpg)
 ![NeoFetch for Windows](demoimage2.jpg)
 
-## Installation
+# Installation
 
-```bash
-git clone https://github.com/SuperHax0rr/neofetch-for-windows.git
-cd neofetch-for-windows
+Download the latest `NeoFetch4Windows.exe` from the Releases page.
+No Python installation is required.
+
+# Usage
+
+Double-click `NeoFetch4Windows.exe`
+or run it from Command Prompt:
+```cmd
+NeoFetch4Windows.exe
 ```
 
-## Requirements
+## Running from source
 
-- Python 3.10 or later
+Requirements
+
+- Python 3.10+
 - Windows 10/11
+
+```cmd
+git clone https://github.com/yourusername/NeoFetch4Windows.git
+cd NeoFetch4Windows
+python NeoFetch4Windows.py
+```
 
 ## Usage
 
 Run the script directly:
-
 ```bash
 python neofetch_for_windows.py
 ```
