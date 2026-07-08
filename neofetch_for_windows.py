@@ -16,29 +16,54 @@ ANSI_MAGENTA = "\033[95m"
 ANSI_BLUE = "\033[94m"
 ANSI_RED = "\033[91m"
 ANSI_SOFT_WHITE = "\033[38;2;200;200;200m"
- 
+
+#uncomment the ascii art you would like and comment the other one
+#you can get more ascii arts on https://emojicombos.com/anime-ascii-art 
+
 ASCII_ART = [
-    r"⠀⠀⠀⠀⠀⠀⣰⣾⠁⠀⢦⣾⣤⠆⠀⠻⣧⠀⠀⠀⠀⠀⠀",
-    r"⠀⠀⠀⠀⢠⣼⠏⠀⠀⠀⠀⣿⡇⠀⠀⠀⠈⢷⣄⠀⠀⠀⠀",
-    r"⠀⠀⢀⣸⣿⠃⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⢿⣧⡀⠀⠀",
-    r"⠀⢰⣾⣿⡁⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⢀⣿⣿⠖⠀",
-    r"⠀⠀⠈⠻⣿⣦⣄⠀⠀⠀⠀⣿⡇⠀⠀⠀⢀⣴⣿⠟⠁⠀⠀",
-    r"⠀⠀⠀⠀⠈⠻⢿⣷⣄⡀⠀⣿⡇⠀⣠⣾⣿⠟⠁⠀⠀⠀⠀",
-    r"⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣦⣿⣧⣾⣿⠟⠁⠀⠀⠀⠀⠀⠀",
-    r"⠀⠀⠀⠀⠀⠀⠀⠀⠀⢙⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀",
-    r"⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀",
-    r"⠀⠀⠀⠀⠀⢀⣴⣿⣿⠟⠁⣻⣿⠈⠙⢿⣿⣦⡀⠀⠀⠀⠀",
-    r"⠀⠀⠀⢀⣴⣿⡿⠋⠀⠀⠀⣽⣿⠀⠀⠀⠙⢿⣿⣦⣄⠀⠀",
-    r"⠀⣠⣴⣿⡿⠋⠀⠀⠀⠀⠀⢼⣿⠀⠀⠀⠀⠀⠈⢻⣿⣷⣄",
-    r" ⠙⢿⣿⣦⣄⠀⠀⠀⠀⠀⢸⣿⠀⠀⠀⠀⠀⣠⣾⣿⠟⠁",
-    r"⠀⠀⠀⠙⢿⣿⣷⣄⠀⠀⠀⢸⣿⠀⠀⠀⣠⣾⣿⠟⠁⠀⠀",
-    r"⠀⠀⠀⠀⠀⠙⢻⣿⣷⡄⠀⢸⣿⠀⠀⣼⣿⣿⠃⠀⠀⠀⠀",
-    r"⠀⠀⠀⠀⠀⠀ ⠻⢿⣿⣦⣸⣿⣠⣾⣿⠟⠁⠀⠀⠀⠀⠀",
-    r"⠀⠀⠀⠀⠀⠀⠀  ⠙⢿⣿⣿⣿⡿⠁⠀⠀⠀⠀⠀⠀⠀",
-    r"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+r"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+r"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⡇⠀⠀⠀⠀⠀⠀⠀⠀⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+r"⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⣿⣃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+r"⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⣧⣤⣤⣤⣀⣀⣀⢠⣿⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+r"⠀⠀⠀⠀⠀⣀⡤⠚⠿⠿⠛⠁⠋⠁⠀⠀⠀⠀⠉⠙⠻⢧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+r"⠀⠀⠀⣠⠞⠁⠀⠀⠀⣠⠖⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠢⡝⢦⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+r"⠀⢀⡾⢁⡀⠀⠀⣠⠞⠁⠀⠀⠀⣀⡀⠀⠀⠀⠀⠀⠀⠱⣈⣮⣳⡀⠀⠀⠀⠀⠀⠀⠀",
+r"⢀⡞⢠⡞⠀⢀⡜⠁⠀⠀⠀⠀⡀⡟⣷⣤⠀⢀⠀⠀⢀⠀⠙⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀",
+r"⣸⣷⣿⠀⢠⠎⠀⠀⠀⠀⡄⢠⣯⠃⢹⣿⠀⡎⠀⢠⢸⠙⣧⡈⢿⣜⣇⠀⠀⠀⠀⠀⠀",
+r"⢹⣿⠀⢀⠋⠀⠀⢀⣠⠞⢀⣾⣟⣲⣼⣿⣰⠀⠀⢸⣸⠀⠹⣷⠈⣿⣿⠀⠀⠀⠀⠀⠀",
+r"⢸⣿⢀⡎⣀⣤⣾⡿⠋⢠⣾⣿⣷⢾⣬⣿⠇⠀⢀⣞⣇⣀⠀⢻⡇⠸⡿⠀⠀⠀⠀⠀⠀",
+r"⣾⣿⠚⢻⡛⠛⠉⣀⡴⠟⠹⣿⡟⡀⢹⡟⠀⢠⣿⣿⣿⣷⢶⣾⣿⢰⣷⠀⠀⠀⠀⠀⠀",
+r"⣺⣿⢰⣍⠻⡭⠟⠋⠀⠀⠀⠀⠀⢀⡿⡡⢠⣿⢿⠙⢿⠿⠀⠈⣿⣿⣿⣷⠀⠀⠀⠀⠀",
+r"⢻⣨⣀⢠⠀⣷⠀⠀⠀⠀⠀⠀⢀⣾⣷⣱⠟⠁⠀⠑⠈⠉⠉⢠⣏⢹⣿⡇⠀⠀⠀⠀⠀",
+r"⠉⢿⢆⡉⢀⣉⠳⠀⠀⠀⠀⠀⣸⣿⠏⠀⠀⠀⠴⠏⠀⠀⠀⣸⡀⢸⣿⠇⠀⠀⠀⠀⠀",
+r"⠀⢸⠀⠉⠙⣏⢣⠀⠀⠀⠀⠚⠋⠀⠀⠀⠀⢀⣀⣀⠀⠀⢰⣷⡇⣾⡏⠀⠀⠀⠀⠀⠀",
+r"⠠⣼⡆⠀⢠⢠⡀⠳⣀⠀⠀⠀⠀⠀⠀⠀⠉⠀⠈   ⣠⣿⣟⡏⣿⠀⠀⠀⠀⠀⠀⠀",
+r"⠈⣿⣿⠀⢸⣄⡇⠀⠈⠢⢄⡀⠀⠀⠀⠀⠀⠀⠀⠀⣴⢻⣿⣟⡏⣿⡇⠀⠀⠀⠀⠀⠀",
+r"⢐⣿⣿⡇⢸⣿⣷⠀⠀⠀⠀⠈⠑⠢⢄⣀⠀⢀⣤⣾⣿⣿⣇⣿⣇⣿⣷⠀⠀⠀⠀⠀⠀",
+r"⢺⣿⣿⡇⢾⣿⣿⡇⠀⠐⣄⠀⠀⠀⠀⠀⠉⣿⣿⣿⣿⣿⣿⣿⣿⣿⣖⣧⠀⠀⠀⠀⠀",
+r"⢸⣿⢹⣇⢸⡋⣿⣷⠀⠀⠘⣆⠀⠀⠀⠀⢀⣼⠿⠟⠻⣿⠁⢹⣿⣿⣖⣧⠈⠳⡀⠀⠀",
 ]
 
-# change ascii art line by line, go to https://www.asciiart.eu/ for options
+# ASCII_ART = [
+#     r"⠀⠀⠀⠀⠀⠀⣰⣾⠁⠀⢦⣾⣤⠆⠀⠻⣧⠀⠀⠀⠀⠀⠀",
+#     r"⠀⠀⠀⠀⢠⣼⠏⠀⠀⠀⠀⣿⡇⠀⠀⠀⠈⢷⣄⠀⠀⠀⠀",
+#     r"⠀⠀⢀⣸⣿⠃⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⢿⣧⡀⠀⠀",
+#     r"⠀⢰⣾⣿⡁⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⢀⣿⣿⠖⠀",
+#     r"⠀⠀⠈⠻⣿⣦⣄⠀⠀⠀⠀⣿⡇⠀⠀⠀⢀⣴⣿⠟⠁⠀⠀",
+#     r"⠀⠀⠀⠀⠈⠻⢿⣷⣄⡀⠀⣿⡇⠀⣠⣾⣿⠟⠁⠀⠀⠀⠀",
+#     r"⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣦⣿⣧⣾⣿⠟⠁⠀⠀⠀⠀⠀⠀",
+#     r"⠀⠀⠀⠀⠀⠀⠀⠀⠀⢙⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀",
+#     r"⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀",
+#     r"⠀⠀⠀⠀⠀⢀⣴⣿⣿⠟⠁⣻⣿⠈⠙⢿⣿⣦⡀⠀⠀⠀⠀",
+#     r"⠀⠀⠀⢀⣴⣿⡿⠋⠀⠀⠀⣽⣿⠀⠀⠀⠙⢿⣿⣦⣄⠀⠀",
+#     r"⠀⣠⣴⣿⡿⠋⠀⠀⠀⠀⠀⢼⣿⠀⠀⠀⠀⠀⠈⢻⣿⣷⣄",
+#     r" ⠙⢿⣿⣦⣄⠀⠀⠀⠀⠀⢸⣿⠀⠀⠀⠀⠀⣠⣾⣿⠟⠁",
+#     r"⠀⠀⠀⠙⢿⣿⣷⣄⠀⠀⠀⢸⣿⠀⠀⠀⣠⣾⣿⠟⠁⠀⠀",
+#     r"⠀⠀⠀⠀⠀⠙⢻⣿⣷⡄⠀⢸⣿⠀⠀⣼⣿⣿⠃⠀⠀⠀⠀",
+#     r"⠀⠀⠀⠀⠀⠀ ⠻⢿⣿⣦⣸⣿⣠⣾⣿⠟⠁⠀⠀⠀⠀⠀",
+#     r"⠀⠀⠀⠀⠀⠀⠀  ⠙⢿⣿⣿⣿⡿⠁⠀⠀⠀⠀⠀⠀⠀",
+#     r"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+# ]
 
 def enable_ansi_colors() -> None:
     if os.name != "nt":
@@ -57,14 +82,12 @@ def enable_ansi_colors() -> None:
     new_mode = mode.value | ENABLE_VIRTUAL_TERMINAL_PROCESSING
     kernel32.SetConsoleMode(handle, new_mode)
 
-
 def run_command(command: str) -> str:
     try:
         output = subprocess.check_output(command, stderr=subprocess.DEVNULL, shell=True)
         return output.decode(errors="replace").strip()
     except subprocess.CalledProcessError:
         return ""
-
 
 def format_bytes(size: int) -> str:
     for unit in ["B", "KB", "MB", "GB", "TB"]:
@@ -73,13 +96,11 @@ def format_bytes(size: int) -> str:
         size /= 1024.0
     return f"{size:.1f} PB"
 
-
 def get_os_info() -> str:
     name = platform.system()
     release = platform.release()
     version = platform.version()
     return f"{name} {release} ({version})"
-
 
 def get_host_info() -> str:
     node = platform.node() or socket.gethostname()
@@ -97,10 +118,8 @@ def get_host_info() -> str:
         return f"{node} ({model})"
     return node
 
-
 def get_kernel_info() -> str:
     return platform.version()
-
 
 def get_uptime() -> str:
     if os.name == "nt":
@@ -118,7 +137,6 @@ def get_uptime() -> str:
                 except ValueError:
                     break
     return "Unknown"
-
 
 def get_cpu_info() -> str:
     cpu_name = platform.processor() or "Unknown CPU"
@@ -138,7 +156,6 @@ def get_cpu_info() -> str:
             break
     return f"{cpu_name}{' @ ' + speed if speed else ''}"
 
-
 def get_gpu_info() -> str:
     output = run_command("wmic path win32_VideoController get name /format:list")
     names = []
@@ -148,7 +165,6 @@ def get_gpu_info() -> str:
             if value:
                 names.append(value)
     return ", ".join(names) if names else "Unknown GPU"
-
 
 def get_memory_info() -> str:
     total = 0
@@ -171,7 +187,6 @@ def get_memory_info() -> str:
         return f"{format_bytes(used)} / {format_bytes(total)} ({percent:.0f}%)"
     return "Unknown"
 
-
 def get_disk_info() -> str:
     try:
         root = os.path.abspath(os.sep)
@@ -180,17 +195,14 @@ def get_disk_info() -> str:
     except Exception:
         return "Unknown"
 
-
 def get_python_info() -> str:
     version = platform.python_version()
     implementation = platform.python_implementation()
     return f"{implementation} {version}"
 
-
 def get_shell_info() -> str:
     shell = os.environ.get("COMSPEC") or os.environ.get("SHELL") or "cmd.exe"
     return shell
-
 
 def get_battery_info() -> str:
     if os.name != "nt":
@@ -210,7 +222,6 @@ def get_battery_info() -> str:
     if status.BatteryLifePercent == 255:
         return "No Battery"
     return f"{status.BatteryLifePercent}%"
-
 
 def get_info_lines() -> list[str]:
     return [
@@ -235,7 +246,6 @@ def get_info_lines() -> list[str]:
 def color_text(text: str, color_code: str) -> str:
     return f"{color_code}{text}{ANSI_RESET}"
 
-
 def print_neofetch() -> None:
     enable_ansi_colors()
     lines = get_info_lines()
@@ -259,12 +269,10 @@ def print_neofetch() -> None:
 
     print()
 
-
 def main() -> None:
     if os.name != "nt":
         return
     print_neofetch()
-
 
 if __name__ == "__main__":
     main()
