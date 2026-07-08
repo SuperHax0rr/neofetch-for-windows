@@ -1,7 +1,6 @@
 # NeoFetch for Windows
 
 A NeoFetch-inspired command-line system information tool for Windows built in Python.
-
 This project displays detailed system information in the terminal using customizable ASCII art, similar to the original NeoFetch experience on Linux.
 
 ## Features
@@ -57,7 +56,9 @@ The script displays information such as:
 - Running Processes
 - Current Date and Time
 
+##Note
 
+This project is mostly vibe-coded
 
 ## License
 
