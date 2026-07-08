@@ -15,7 +15,7 @@ This will show system information in the terminal with "customizable" ASCII art,
 
 ## Screenshot
 
-![NeoFetch for Windows](screenshot1.png)
+![NeoFetch for Windows](demoimage1.jpg)
 
 ## Installation
 
