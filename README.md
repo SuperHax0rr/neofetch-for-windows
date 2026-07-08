@@ -13,9 +13,10 @@ This will show system information in the terminal with "customizable" ASCII art,
 - Terminal customization
 - Lightweight and portable Python script
 
-## Screenshot
+## Screenshots
 
 ![NeoFetch for Windows](demoimage1.jpg)
+![NeoFetch for Windows](demoimage2.jpg)
 
 ## Installation
 
