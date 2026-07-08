@@ -56,7 +56,7 @@ The script displays information such as:
 - Running Processes
 - Current Date and Time
 
-##Note
+## Note
 
 This project is mostly vibe-coded
 
