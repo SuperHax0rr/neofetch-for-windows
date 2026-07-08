@@ -1,7 +1,7 @@
 # NeoFetch for Windows
 
 A NeoFetch-inspired command-line system information tool for Windows built in Python.
-This project displays detailed system information in the terminal using customizable ASCII art, similar to the original NeoFetch experience on Linux.
+This will show system information in the terminal with "customizable" ASCII art, similar to the original NeoFetch experience on Linux.
 
 ## Features
 
@@ -58,7 +58,7 @@ The script displays information such as:
 
 ## Note
 
-This project is mostly vibe-coded
+This project is mostly vibe-coded, I built this cus linux wasn't working on my laptop and I like to customize stuff.
 
 ## License
 
