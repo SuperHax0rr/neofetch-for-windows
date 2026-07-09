@@ -8,10 +8,10 @@ This will show system information in the terminal with "customizable" ASCII art,
 - Displays Windows system information
 - Shows CPU, GPU, memory, disk, and battery information
 - Displays uptime, shell, Python version, and running processes
-- ASCII art output
-- Custom color themes
+- ASCII art output (change in code as per need)
+- Custom color themes (easy to change in code)
 - Terminal customization
-- Lightweight and portable Python script
+- Lightweight Python script
 
 ## Screenshots
 
