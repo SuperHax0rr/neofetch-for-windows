@@ -72,7 +72,7 @@ The script displays information such as:
 
 ## Note
 
-This project is mostly vibe-coded to fetch system details quickly with cool Ascii art on the side.
+This project is mostly vibe-coded to fetch system details with Ascii art on the side.
 
 ## License
 
